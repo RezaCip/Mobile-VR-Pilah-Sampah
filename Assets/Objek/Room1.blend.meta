@@ -1,0 +1,233 @@
+fileFormatVersion: 2
+guid: 902d6cfa0e5bff04b81cdf0f8a628f67
+timeCreated: 1564397230
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: CTRL_Hole_001
+    100002: Cube
+    100004: Cube_001
+    100006: Cube_002
+    100008: Cube_003
+    100010: Cube_004
+    100012: Cube_005
+    100014: Cube_006
+    100016: Cube_007
+    100018: Cube_008
+    100020: Cube_009
+    100022: Cube_010
+    100024: Cube_011
+    100026: Cube_013
+    100028: Cylinder
+    100030: Cylinder_001
+    100032: Cylinder_002
+    100034: Cylinder_003
+    100036: Handle_002
+    100038: Handle_003
+    100040: house
+    100042: Icosphere
+    100044: Plane
+    100046: Plane_001
+    100048: //RootNode
+    100050: Window_Group
+    100052: Window_L_001
+    100054: Window_R_001
+    100056: WindowFrame
+    100058: Windows_Sill
+    100060: Windows_Sill_001
+    100062: winxp-royale
+    400000: CTRL_Hole_001
+    400002: Cube
+    400004: Cube_001
+    400006: Cube_002
+    400008: Cube_003
+    400010: Cube_004
+    400012: Cube_005
+    400014: Cube_006
+    400016: Cube_007
+    400018: Cube_008
+    400020: Cube_009
+    400022: Cube_010
+    400024: Cube_011
+    400026: Cube_013
+    400028: Cylinder
+    400030: Cylinder_001
+    400032: Cylinder_002
+    400034: Cylinder_003
+    400036: Handle_002
+    400038: Handle_003
+    400040: house
+    400042: Icosphere
+    400044: Plane
+    400046: Plane_001
+    400048: //RootNode
+    400050: Window_Group
+    400052: Window_L_001
+    400054: Window_R_001
+    400056: WindowFrame
+    400058: Windows_Sill
+    400060: Windows_Sill_001
+    400062: winxp-royale
+    2300000: CTRL_Hole_001
+    2300002: Cube
+    2300004: Cube_001
+    2300006: Cube_002
+    2300008: Cube_003
+    2300010: Cube_004
+    2300012: Cube_005
+    2300014: Cube_006
+    2300016: Cube_007
+    2300018: Cube_008
+    2300020: Cube_009
+    2300022: Cube_010
+    2300024: Cube_011
+    2300026: Cube_013
+    2300028: Cylinder
+    2300030: Cylinder_001
+    2300032: Cylinder_002
+    2300034: Cylinder_003
+    2300036: Handle_002
+    2300038: Handle_003
+    2300040: house
+    2300042: Icosphere
+    2300044: Plane
+    2300046: Plane_001
+    2300048: Window_L_001
+    2300050: Window_R_001
+    2300052: WindowFrame
+    2300054: Windows_Sill
+    2300056: Windows_Sill_001
+    2300058: winxp-royale
+    3300000: CTRL_Hole_001
+    3300002: Cube
+    3300004: Cube_001
+    3300006: Cube_002
+    3300008: Cube_003
+    3300010: Cube_004
+    3300012: Cube_005
+    3300014: Cube_006
+    3300016: Cube_007
+    3300018: Cube_008
+    3300020: Cube_009
+    3300022: Cube_010
+    3300024: Cube_011
+    3300026: Cube_013
+    3300028: Cylinder
+    3300030: Cylinder_001
+    3300032: Cylinder_002
+    3300034: Cylinder_003
+    3300036: Handle_002
+    3300038: Handle_003
+    3300040: house
+    3300042: Icosphere
+    3300044: Plane
+    3300046: Plane_001
+    3300048: Window_L_001
+    3300050: Window_R_001
+    3300052: WindowFrame
+    3300054: Windows_Sill
+    3300056: Windows_Sill_001
+    3300058: winxp-royale
+    4300000: Cube_013
+    4300002: Cylinder_003
+    4300004: winxp-royale
+    4300006: Plane_001
+    4300008: Cube_011
+    4300010: Cube_010
+    4300012: Cylinder_002
+    4300014: Cube_009
+    4300016: Cylinder_001
+    4300018: Icosphere
+    4300020: house
+    4300022: Cube_008
+    4300024: Cylinder
+    4300026: Cube_007
+    4300028: Cube_006
+    4300030: Cube_005
+    4300032: Cube_004
+    4300034: Plane
+    4300036: Cube_003
+    4300038: Cube_002
+    4300040: Windows_Sill
+    4300042: Cube
+    4300044: Cube_001
+    4300046: CTRL_Hole_001
+    4300048: WindowFrame
+    4300050: Windows_Sill_001
+    4300052: Window_R_001
+    4300054: Handle_003
+    4300056: Window_L_001
+    4300058: Handle_002
+    7400000: Default Take
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 846008568025f1d438b2b51b06dd12b2
+timeCreated: 1521788516
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Roof runners
+  fontNames:
+  - Roof runners
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 6b686a0b5ef91864a8259707f378ff80, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

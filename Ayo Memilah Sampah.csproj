@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0CB43821-76FB-B732-AE6D-1C38A93BE449}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
+    <CompilerResponseFile></CompilerResponseFile>
+    <UnityProjectGenerator>VSTU</UnityProjectGenerator>
+    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityBuildTarget>Android:13</UnityBuildTarget>
+    <UnityVersion>5.6.3f1</UnityVersion>
+    <RootNamespace></RootNamespace>
+    <LangVersion>4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Debug\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Debug\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_5_6_3;UNITY_5_6;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;ENABLE_VIDEO;UNITY_ANDROID;ENABLE_SUBSTANCE;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_VR;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;ENABLE_VSTU;UNITY_HAS_GOOGLEVR</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Release\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Release\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_5_6_3;UNITY_5_6;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;ENABLE_VIDEO;UNITY_ANDROID;ENABLE_SUBSTANCE;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_VR;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;ENABLE_VSTU;UNITY_HAS_GOOGLEVR</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="Boo.Lang" />
+    <Reference Include="UnityScript.Lang" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TestRunner">
+      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework">
+      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Analytics">
+      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.HoloLens">
+      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VR">
+      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.ProtocolBuffers">
+      <HintPath>Assets/Plugins/Google.ProtocolBuffers.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+      <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Common">
+      <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\ContohSampah.cs" />
+    <Compile Include="Assets\GoogleVR\DemoScenes\ControllerDemo\ControllerDebugInfo.cs" />
+    <Compile Include="Assets\GoogleVR\DemoScenes\ControllerDemo\ControllerDemoManager.cs" />
+    <Compile Include="Assets\GoogleVR\DemoScenes\HeadsetDemo\FPS.cs" />
+    <Compile Include="Assets\GoogleVR\DemoScenes\HeadsetDemo\Teleport.cs" />
+    <Compile Include="Assets\GoogleVR\Scripts\Audio\GvrAudio.cs" />
+    <Compile Include="Assets\GoogleVR\Scripts\Audio\GvrAudioListener.cs" />
+    <Compile Include="Assets\GoogleVR\Scripts\Audio\GvrAudioRoom.cs" />
+    <Compile Include="Assets\GoogleVR\Scripts\Audio\GvrAudioSource.cs" />
+    <Compile Include="Assets\GoogleVR\Scripts\Controller\GvrController.cs" />
+    <Compile Include="Assets\GoogleVR\Scripts\Controller\Internal\ControllerProviderFactory.cs" />
+    <Compile Include="Assets\GoogleVR\Scripts\Controller\Internal\ControllerProviders\AndroidNativeControllerProvider.cs" />
+    <Compile Include="Assets\GoogleVR\Scripts\Controller\Internal\ControllerProviders\DummyControllerProvider.cs" />
+    <Compile Include="Assets\GoogleVR\Scripts\Controller\Internal\ControllerProviders\EmulatorControllerProvider.cs" />
+    <Compile Include="Assets\GoogleVR\Scripts\Controller\Internal\ControllerState.cs" />
+    <Compile Include="Assets\GoogleVR\Scripts\Controller\Internal\Emulator\EmulatorClientSocket.cs" />
+    <Compile Include="Assets\GoogleVR\Scripts\Controller\Internal\Emulator\EmulatorConfig.cs" />
+    <Compile Include="Assets\GoogleVR\Scripts\Controller\Internal\Emulator\EmulatorDataTypes.cs" />
+    <Compile Include="Assets\GoogleVR\Scripts\Controller\Internal\Emulator\EmulatorManager.cs" />
+    <Compile Include="Assets\GoogleVR\Scripts\Controller\Internal\Emulator\PhoneEvent.cs" />
+    <Compile Include="Assets\GoogleVR\Scripts\Controller\Internal\IControllerProvider.cs" />
+    <Compile Include="Assets\GoogleVR\Scripts\GazeInputModule.cs" />
+    <Compile Include="Assets\GoogleVR\Scripts\GvrEye.cs" />
+    <Compile Include="Assets\GoogleVR\Scripts\GvrHead.cs" />
+    <Compile Include="Assets\GoogleVR\Scripts\GvrPostRender.cs" />
+    <Compile Include="Assets\GoogleVR\Scripts\GvrPreRender.cs" />
+    <Compile Include="Assets\GoogleVR\Scripts\GvrProfile.cs" />
+    <Compile Include="Assets\GoogleVR\Scripts\GvrViewer.cs" />
+    <Compile Include="Assets\GoogleVR\Scripts\Pose3D.cs" />
+    <Compile Include="Assets\GoogleVR\Scripts\StereoController.cs" />
+    <Compile Include="Assets\GoogleVR\Scripts\StereoRenderEffect.cs" />
+    <Compile Include="Assets\GoogleVR\Scripts\UI\GvrGaze.cs" />
+    <Compile Include="Assets\GoogleVR\Scripts\UI\GvrReticle.cs" />
+    <Compile Include="Assets\GoogleVR\Scripts\UI\IGvrGazePointer.cs" />
+    <Compile Include="Assets\GoogleVR\Scripts\UI\IGvrGazeResponder.cs" />
+    <Compile Include="Assets\GoogleVR\Scripts\VRDevices\AndroidDevice.cs" />
+    <Compile Include="Assets\GoogleVR\Scripts\VRDevices\BaseAndroidDevice.cs" />
+    <Compile Include="Assets\GoogleVR\Scripts\VRDevices\BaseVRDevice.cs" />
+    <Compile Include="Assets\GoogleVR\Scripts\VRDevices\EditorDevice.cs" />
+    <Compile Include="Assets\GoogleVR\Scripts\VRDevices\GvrDevice.cs" />
+    <Compile Include="Assets\GoogleVR\Scripts\VRDevices\iOSDevice.cs" />
+    <Compile Include="Assets\Scene\Level\Level 1\Stage1\AnorganikA.cs" />
+    <Compile Include="Assets\Scene\Level\Level 1\Stage1\AnorganikB.cs" />
+    <Compile Include="Assets\Scene\Level\Level 1\Stage1\Berbahaya.cs" />
+    <Compile Include="Assets\Scene\Level\Level 1\Stage1\OrganikA.cs" />
+    <Compile Include="Assets\Scene\Level\Level 1\Stage1\OrganikB.cs" />
+    <Compile Include="Assets\Scene\Level\Level 1\Stage1\OrganikC.cs" />
+    <Compile Include="Assets\Scene\Level\Level 1\Stage1\WaktuNScore.cs" />
+    <Compile Include="Assets\Scene\Level\Level 1\Stage1\waktu.cs" />
+    <Compile Include="Assets\Scene\Level\Level 1\Stage1\waktubonus1.cs" />
+    <Compile Include="Assets\Scene\Level\Level 2\PickupObject2.cs" />
+    <Compile Include="Assets\Scene\Level\Level 2\Pickupable2.cs" />
+    <Compile Include="Assets\Scene\Level\Level 2\PickupableAn2.cs" />
+    <Compile Include="Assets\Scene\Level\Level 2\PickupableBer2.cs" />
+    <Compile Include="Assets\Scene\Level\Level 2\TSanorganik2.cs" />
+    <Compile Include="Assets\Scene\Level\Level 2\TSberbahaya2.cs" />
+    <Compile Include="Assets\Scene\Level\Level 2\TSorganik2.cs" />
+    <Compile Include="Assets\Scene\Level\Level 2\waktu2.cs" />
+    <Compile Include="Assets\Scene\Level\Level 3\PickupObject3.cs" />
+    <Compile Include="Assets\Scene\Level\Level 3\Pickupable3.cs" />
+    <Compile Include="Assets\Scene\Level\Level 3\PickupableAn3.cs" />
+    <Compile Include="Assets\Scene\Level\Level 3\PickupableBer3.cs" />
+    <Compile Include="Assets\Scene\Level\Level 3\TSanorganik3.cs" />
+    <Compile Include="Assets\Scene\Level\Level 3\TSberbahaya3.cs" />
+    <Compile Include="Assets\Scene\Level\Level 3\TSorganik3.cs" />
+    <Compile Include="Assets\Scene\Level\Level 3\waktu3.cs" />
+    <Compile Include="Assets\Script\Ambil.cs" />
+    <Compile Include="Assets\Script\BGSoundScript.cs" />
+    <Compile Include="Assets\Script\Belajar.cs" />
+    <Compile Include="Assets\Script\EnemyMoveY.cs" />
+    <Compile Include="Assets\Script\KeMenu.cs" />
+    <Compile Include="Assets\Script\KembalikeMenu.cs" />
+    <Compile Include="Assets\Script\LevelManager.cs" />
+    <Compile Include="Assets\Script\MenuUtama.cs" />
+    <Compile Include="Assets\Script\Perhitungan.cs" />
+    <Compile Include="Assets\Script\PickupObject.cs" />
+    <Compile Include="Assets\Script\PickupObjectA.cs" />
+    <Compile Include="Assets\Script\Pickupable.cs" />
+    <Compile Include="Assets\Script\PickupableAn.cs" />
+    <Compile Include="Assets\Script\PickupableBer.cs" />
+    <Compile Include="Assets\Script\PilihLevel.cs" />
+    <Compile Include="Assets\Script\PilihLevel1.cs" />
+    <Compile Include="Assets\Script\PindahBelajar.cs" />
+    <Compile Include="Assets\Script\PindahScene.cs" />
+    <Compile Include="Assets\Script\Sampah\AnorganikC.cs" />
+    <Compile Include="Assets\Script\Score.cs" />
+    <Compile Include="Assets\Script\ScoreAkhir.cs" />
+    <Compile Include="Assets\Script\TSanorganik.cs" />
+    <Compile Include="Assets\Script\TSberbahaya.cs" />
+    <Compile Include="Assets\Script\TSorganik.cs" />
+    <Compile Include="Assets\Script\ThrowObject.cs" />
+    <Compile Include="Assets\Script\gameover1.cs" />
+    <Compile Include="Assets\Script\ganti_objek.cs" />
+    <Compile Include="Assets\Script\jalan.cs" />
+    <Compile Include="Assets\bintang.cs" />
+    <Compile Include="Assets\buttonContoh.cs" />
+    <Compile Include="Assets\nilai_bintang.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Font\candy-inc\billy-argel_candy-inc\READ ME.txt" />
+    <None Include="Assets\Font\candy-inc\press gang free font license.txt" />
+    <None Include="Assets\Font\qarmic-sans\1001fonts-qarmic-sans-eula.txt" />
+    <None Include="Assets\Font\roof\press gang free font license.txt" />
+    <None Include="Assets\Font\super-webcomic-bros\press gang free font license.txt" />
+    <None Include="Assets\GoogleVR\Distortion\GvrDistortion.cginc" />
+    <None Include="Assets\GoogleVR\Resources\SolidColor.shader" />
+    <None Include="Assets\GoogleVR\Resources\UI\GvrReticleShader.shader" />
+    <None Include="Assets\GoogleVR\Resources\UnlitTexture.shader" />
+    <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="GenerateTargetFrameworkMonikerAttribute" />
+</Project>

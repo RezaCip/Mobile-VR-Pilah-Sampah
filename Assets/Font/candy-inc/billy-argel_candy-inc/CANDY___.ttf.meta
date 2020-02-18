@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: fc04c7ab0b46c5b49a23a5815b5ac2e1
+timeCreated: 1521788516
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: CANDY INC.
+  fontNames:
+  - CANDY INC.
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

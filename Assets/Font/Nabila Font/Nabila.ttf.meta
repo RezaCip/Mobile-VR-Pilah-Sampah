@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: cc2a4d173d35f2643a5b28ef2bcd068d
+timeCreated: 1521786878
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Nabila
+  fontNames:
+  - Nabila
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 4906dd7a4f7397646811ea0fde862854, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
